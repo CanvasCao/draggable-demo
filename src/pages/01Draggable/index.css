@@ -1,0 +1,14 @@
+#drag {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}

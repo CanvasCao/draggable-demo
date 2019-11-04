@@ -1,4 +1,4 @@
 export default {
     BOX: 'box',
-    BIN: 'bin',
+    DUST_BIN: 'dustBin',
 }

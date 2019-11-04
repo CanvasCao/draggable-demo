@@ -1,0 +1,75 @@
+{
+  "columns": [
+    {
+      "id": 0,
+      "name": "Analysis",
+      "storyCards": []
+    },
+    {
+      "id": 1,
+      "name": "Ready For Dev",
+      "storyCards": [
+        {
+          "id": 1,
+          "name": "cookie law"
+        },
+        {
+          "id": 2,
+          "name": "add vat on EU orders"
+        },
+        {
+          "id": 3,
+          "name": "include address"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "In Dev",
+      "storyCards": [
+        {
+          "id": 4,
+          "name": "add vat on UK orders"
+        },
+        {
+          "id": 5,
+          "name": "payment for UK customer"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ready For QA",
+      "storyCards": [
+        {
+          "id": 6,
+          "name": "defact: create account with duplicate email"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "In QA",
+      "storyCards": []
+    },
+    {
+      "id": 5,
+      "name": "Ready For Showcase",
+      "storyCards": []
+    },
+    {
+      "id": 6,
+      "name": "In production",
+      "storyCards": [
+        {
+          "id": 7,
+          "name": "country story"
+        },
+        {
+          "id": 8,
+          "name": "human.txt"
+        }
+      ]
+    }
+  ]
+}

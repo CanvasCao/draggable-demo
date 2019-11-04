@@ -1,0 +1,23 @@
+{
+  "columns": [
+    {
+      "id": 1,
+      "name": "Ready For Dev",
+      "storyCards": [
+        {
+          "id": 1,
+          "name": "Story card 1"
+        },
+        {
+          "id": 2,
+          "name": "Story card 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "In Dev",
+      "storyCards": []
+    }
+  ]
+}

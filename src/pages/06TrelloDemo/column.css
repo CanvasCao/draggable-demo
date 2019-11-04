@@ -3,11 +3,21 @@
     marginRight: 20px;
     background: white;
     padding: 10px;
-    float: left;
+    display: inline-block;
     margin-right: 20px;
     border: 1px solid #000;
+    height: 100%;
+    white-space: initial;
 }
 
-.columnName{
+.columnName {
     margin-bottom: 10px;
+}
+
+#columns-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
 }

@@ -17,7 +17,7 @@ const style = {
 const Bin = () => {
     const [{canDrop, isOver}, drop] = useDrop({
         accept: [ItemTypes.BOX],
-        drop: () => ({name: 'Bin'}),
+        drop: () => ({name: 'Bin', type: ItemTypes.BIN}),
         collect: monitor => ({
             isOver: monitor.isOver(),
             canDrop: monitor.canDrop(),
@@ -32,8 +32,13 @@ const Bin = () => {
         backgroundColor = 'darkkhaki'
     }
     return (
-        <div ref={drop} style={{...style, backgroundColor}}>
-            {isActive ? 'Release to drop' : 'Drag a box here'}
+        <div
+            ref={drop}
+            style={{
+                ...style,
+                backgroundColor
+            }}>
+            Drag a box here
         </div>
     )
 }

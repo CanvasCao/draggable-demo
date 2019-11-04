@@ -8,8 +8,10 @@ class Index extends React.Component {
     render() {
         return (
             <DndProvider backend={HTML5Backend}>
-                <Bin />
-                <Box />
+                <>
+                    <Bin />
+                    <Box />
+                </>
             </DndProvider>
         )
     }

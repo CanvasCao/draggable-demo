@@ -27,9 +27,11 @@ const Box = () => {
             isDragging: monitor.isDragging(),
         }),
     })
-    const opacity = isDragging ? 0.4 : 1
     return (
-        <div ref={drag} style={{...style, opacity}}>BOX</div>
+        <div
+            ref={drag}
+            style={{...style}}
+        >BOX</div>
     )
 }
 export default Box
